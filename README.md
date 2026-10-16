@@ -36,18 +36,29 @@ The analysis includes:
 - Blood pressure showed a moderate positive correlation (**r ≈ 0.44**).
 - The simple linear regression model using BMI had an **R² of 0.344**.
 - The multiple regression model using BMI, blood pressure, and S5 had an **R² of 0.480**.
+- The higher R-squared indicates a better fit to the observed sample, but further validation is needed to assess predictive performance on new data.
 
 The multiple regression model explained a larger proportion of the observed variation in progression than the simple model. However, model fit alone does not establish that the model is better in every respect.
 
 ## Limitations
-This is an observational analysis, so the results describe statistical associations rather than causal relationships. The findings may be affected by unmeasured variables, measurement uncertainty, and the limitations of linear regression.
+This is an observational analysis, so the results describe statistical associations rather than causal relationships. The findings may be affected by unmeasured variables, measurement uncertainty, and the limitations of linear regression. The residual diagnostics suggest possible non-linearity, so the assumptions of the linear regression model require further checking.
 
 The results should not be interpreted as a clinical diagnostic tool or as proof that any predictor causes changes in diabetes progression.
 
 ## Project Files
-- `Diabetes_Progression_Analysis.R` — R script containing the analysis.
-- `Diabetes_Progression_Report.pdf` — Written report.
-- `Diabetes_Progression_Presentation.pptx` — Decision-maker presentation.
 
-## Purpose
+- [`Diabetes_Progression_Analysis.R`](./Diabetes_Progression_Analysis.R) — R script containing the complete analysis.
+- [`Diabetes_Progression_Report.pdf`](./Diabetes_Progression_Report.pdf) — Final analytical report.
+- [`Diabetes_Progression_Decision_Maker_Presentation.pdf`](./Diabetes_Progression_Decision_Maker_Presentation.pdf) — Decision-maker presentation.
+- [`diabetes.tab.txt`](./diabetes.tab.txt) — Dataset used for the analysis.
+
+## Figures
+
+- [Correlation heatmap](./Correlation%20heatmap.png)
+- [Distribution of BMI](./Distribution%20of%20BMI.png)
+- [Distribution of diabetes progression](./Distribution%20of%20diabetes%20progression.png)
+- [Progression versus BMI](./Progression%20versus%20BMI.png)
+- [Progression versus blood pressure](./Progression%20versus%20blood%20pressure.png)
+- [Residuals versus fitted values](./Residuals%20versus%20fitted%20values.png)
+
 This project was completed as part of my learning in data analysis and demonstrates the use of R for exploratory data analysis, statistical modelling, visualization, and interpretation of results.
