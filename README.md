@@ -41,9 +41,9 @@ The analysis includes:
 The multiple regression model explained a larger proportion of the observed variation in progression than the simple model. However, model fit alone does not establish that the model is better in every respect.
 
 ## Limitations
-This is an observational analysis, so the results describe statistical associations rather than causal relationships. The findings may be affected by unmeasured variables, measurement uncertainty, and the limitations of linear regression. The residual diagnostics suggest possible non-linearity, so the assumptions of the linear regression model require further checking.
+This is an observational analysis, so the results describe statistical associations rather than causal relationships. The findings may be affected by unmeasured variables, measurement uncertainty, and limitations of linear regression. In addition, the residual diagnostics suggest possible non-linearity, indicating that the model assumptions require further investigation.
 
-The results should not be interpreted as a clinical diagnostic tool or as proof that any predictor causes changes in diabetes progression.
+Therefore, the results should not be interpreted as evidence that any predictor causes changes in diabetes progression, nor should the model be used as a clinical diagnostic tool without further validation.
 
 ## Project Files
 
